@@ -57,7 +57,7 @@ This is where the JOIN operations are useful. We can attach these two tables sid
 (select Dno as DnoMale,Sex,avg(Salary) as MaleAvgSalary from Employee where Sex = 'M' group by Dno,Sex),
 (select Dno as DnoFemale,Sex,avg(Salary) as FemaleAvgSalary from Employee where Sex = 'F' group by Dno,Sex) on DnoMale = DnoFemale ;
 
-
+![stack Overflow](http://lmsotfy.com/so.png)
 
 
 
