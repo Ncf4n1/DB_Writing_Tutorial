@@ -36,14 +36,14 @@ As a first step, we will load the Employee table using the following SQL command
 
 This produces the following table:
 
-![](Screen Shot 2018-11-06 at 7.53.37 PM.png)
+![](https://github.com/Ncf4n1/DB_Writing_Tutorial/blob/master/Screen%20Shot%202018-11-06%20at%207.53.37%20PM.png?raw=true)
 
 
 Now, we would like to summarize the salary data in this table, so that we have the average salary for males and females of every department. To accomplish this, we use the group by operation at the end of select statements to pick the criteria by which we indent to aggregate the data. Furthermore, we use avg() to average the salaries. The following SQL line can be used to obtain the average salary for each department,sex pair.
 
 > select Dno,Sex,avg(Salary) from Employee group by Dno,Sex;
 
-![](Screen Shot 2018-11-06 at 8.41.54 PM.png)
+![](https://github.com/Ncf4n1/DB_Writing_Tutorial/blob/master/Screen%20Shot%202018-11-06%20at%208.41.54%20PM.png?raw=true)
 
 At this point, we need to combine male and female data for each department and compare their earnings(note that this will exclude Depratment 1 which has only one employee). To do this, we need to retrieve the male and female table separately:
 > select Dno,Sex,avg(Salary) from Employee where Sex = 'M' group by Dno,Sex ;
@@ -60,13 +60,13 @@ This is where the JOIN operations are useful. We can attach these two tables sid
 
 
 
-![](Screen Shot 2018-11-06 at 8.56.38 PM.png)
+![](https://github.com/Ncf4n1/DB_Writing_Tutorial/blob/master/Screen%20Shot%202018-11-06%20at%208.56.38%20PM.png?raw=true)
 
 
 It would be helpful now to have the name of the department shown in the table. The best way to do this is to join the last table with the department table on the Dno attribute
 
 
-![](Screen Shot 2018-11-06 at 8.59.47 PM.png)
+![](https://github.com/Ncf4n1/DB_Writing_Tutorial/blob/master/Screen%20Shot%202018-11-06%20at%208.59.47%20PM.png?raw=true)
 
 Finally, we need a command that will only return the highest difference between male and female workers. To achieve this, we only need to use the max command on the difference between salaries in the select statement:
 
