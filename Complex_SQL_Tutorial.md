@@ -24,7 +24,7 @@
 # Company Database Examples
 To better illustrate the utility of using join and select operation in SQL to formulate complex queries, we will walk through an example. This example is taken from the COMPANY database referenced in the course textbook. The COMPANY database contains tables detailing data about employees, departments, projects, and employee dependents, etc. A snapshot of the relational schema is shown below in Figure 1. For a detailed description of the COMPANY database, please refer to chapter 2 of the textbook.
 
-![](DB_Writing_Tutorial/Screen Shot 2018-11-06 at 8.22.46 PM.png?raw=True)
+![](DB_Writing_Tutorial/Screen Shot 2018-11-06 at 8.22.46 PM.png?raw=true)
 Figure 1: COMPANY relational schema [Taken from the course textbook]
 
 
