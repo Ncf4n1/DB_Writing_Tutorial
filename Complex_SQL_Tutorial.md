@@ -24,7 +24,7 @@
 # Company Database Examples
 To better illustrate the utility of using join and select operation in SQL to formulate complex queries, we will walk through an example. This example is taken from the COMPANY database referenced in the course textbook. The COMPANY database contains tables detailing data about employees, departments, projects, and employee dependents, etc. A snapshot of the relational schema is shown below in Figure 1. For a detailed description of the COMPANY database, please refer to chapter 2 of the textbook.
 
-![](DB_Writing_Tutorial/Screen Shot 2018-11-06 at 8.22.46 PM.png?raw=true)
+![](https://github.com/Ncf4n1/DB_Writing_Tutorial/blob/master/Screen%20Shot%202018-11-06%20at%208.22.46%20PM.png?raw=true)
 Figure 1: COMPANY relational schema [Taken from the course textbook]
 
 
@@ -57,7 +57,6 @@ This is where the JOIN operations are useful. We can attach these two tables sid
 (select Dno as DnoMale,Sex,avg(Salary) as MaleAvgSalary from Employee where Sex = 'M' group by Dno,Sex),
 (select Dno as DnoFemale,Sex,avg(Salary) as FemaleAvgSalary from Employee where Sex = 'F' group by Dno,Sex) on DnoMale = DnoFemale ;
 
-![stack Overflow](http://lmsotfy.com/so.png)
 
 
 
