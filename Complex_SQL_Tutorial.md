@@ -4,8 +4,9 @@ This tutorial is designed to discuss effective techniques to decomposing complex
 ## __Prerequisites__
 Before we step into a brief review of SQL select and join statements, we are assuming that you have previous knowledge on Relational Databases and a brief introduction to the basic syntax of SQL, though not necessarily any practice with constructing moderate to complex SQL queries.
 
-# __SQL Select, Join Statements and Aggregate functions Review__
+# __SQL Select, Join Statements and Aggregate Functions Review__
 Before moving on to an example, we will intoduce a few SQL commands that are neccessary for a better understanding of next the next section.<br>
+
 <b>SELECT:</b><br>
 SELECT statement is used to fetch all or specific data from a table. The result is returned as a table. The syntax for a SELECT statement is as follows: SELECT [columns] from [table] where [condition]. The user can select all columns by replacing [columns] by * or can select specific columns by listing them separated by commas. The user can choose one or more tables in [table] place. If more than one selected, then a join table is retrieved. The [condition] after where can be specified to filter out specific rows that meet some attribute value conditions.
 
