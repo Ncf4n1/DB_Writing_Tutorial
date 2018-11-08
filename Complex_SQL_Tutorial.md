@@ -4,8 +4,11 @@ This tutorial is designed to discuss effective techniques to decomposing complex
 ## __Prerequisites__
 Before we step into a brief review of SQL select and join statements, we are assuming that you have previous knowledge on Relational Databases and a brief introduction to the basic syntax of SQL, though not necessarily any practice with constructing moderate to complex SQL queries.
 
-# __SQL Select and Join Statements Review__
+# __SQL Select, Join Statements and Aggregate functions Review__
 Before moving on to an example, we will intoduce a few SQL commands that are neccessary for a better understanding of next the next section.<br>
+<b>SELECT:</b><br>
+SELECT statement is used to fetch all or specific data from a table. The result is returned as a table.
+
 <b>JOIN: </b> <br>
 A JOIN statement combines the data from one table with another based on a given common column between them.
 Common types of join: INNER JOIN, LEFT JOIN, RIGHT JOIN.
@@ -80,6 +83,10 @@ where Sex = 'F' group by Dno, Sex)
 on DnoMale = DnoFemale)  
 on Dnumber = DnoMale;
 
+To reinforce the concepts presented in this tutorial, we recommend that the reader works through the following three queries: 
+1) Get average salary of every employee who has a supervisor who is 3 years older than them. </br>
+2) Get the average number of hours worked on projects with at least 2 employees working on them.</br>
+3) Get the name and address of all employees who have a supervisor dependent born after 1970.</br>
 
 # __Other Resources__
 [Constructing Nested Queries](https://community.modeanalytics.com/sql/tutorial/sql-subqueries/)
@@ -87,7 +94,6 @@ on Dnumber = DnoMale;
 [Improving Your Queries](https://www.datacamp.com/community/tutorials/sql-tutorial-query)
 
 [More on Constructing Sub-Queries and Self Joins](https://ocw.mit.edu/courses/urban-studies-and-planning/11-521-spatial-database-management-and-advanced-geographic-information-systems-spring-2003/lecture-notes/lect4.pdf)
-
 # __References__
 SQL information, example data and database, and data images used from: </br>
 [1] Elmasri, Ramez, and Shamkant B. Navathe. Fundamentals of Database Systems. Pearson, 2017.
