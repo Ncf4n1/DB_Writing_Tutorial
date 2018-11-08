@@ -4,8 +4,11 @@ This tutorial is designed to discuss effective techniques to decomposing complex
 ## __Prerequisites__
 Before we step into a brief review of SQL select and join statements, we are assuming that you have previous knowledge on Relational Databases and a brief introduction to the basic syntax of SQL, though not necessarily any practice with constructing moderate to complex SQL queries.
 
-# __SQL Select and Join Statements Review__
+# __SQL Select, Join Statements and Aggregate functions Review__
 Before moving on to an example, we will intoduce a few SQL commands that are neccessary for a better understanding of next the next section.<br>
+<b>SELECT:</b><br>
+SELECT statement is used to fetch all or specific data from a table. The result is returned as a table.
+
 <b>JOIN: </b> <br>
 A JOIN statement combines the data from one table with another based on a given common column between them.
 Common types of join: INNER JOIN, LEFT JOIN, RIGHT JOIN.
