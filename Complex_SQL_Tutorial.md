@@ -19,7 +19,16 @@ Before we step into a brief review of SQL select and join statements, we are ass
 
 
 # __SQL Select and Join Statements Review__
+Before moving on to an example, we will intoduce a few SQL commands that are neccessary for a better understanding of next the next section.<br>
+<b>JOIN: </b> <br>
+A JOIN statement combines the data from one table with another based on a given common column between them.
+Common types of join: INNER JOIN, LEFT JOIN, RIGHT JOIN.
 
+<b>GROUP BY [column-1], [column-2]: </b> <br>
+The GROUP BY statement is used to summarize the data recieved into columns that follow it. It returns only one row for duplicate results and is usually used with aggregate functions.
+
+<b>AVG(x): </b><br>
+AVG() is an aggregate function. Aggregate functions are used to perform calculations on a given table or column and return the result. In the case of AVG(), it returns the average number.
 
 
 
