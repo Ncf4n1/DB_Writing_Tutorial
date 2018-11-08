@@ -80,6 +80,14 @@ where Sex = 'F' group by Dno, Sex)
 on DnoMale = DnoFemale)  
 on Dnumber = DnoMale;
 
+
+# __Other Resources__
+[Constructing Nested Queries](https://community.modeanalytics.com/sql/tutorial/sql-subqueries/)
+
+[Improving Your Queries](https://www.datacamp.com/community/tutorials/sql-tutorial-query)
+
+[More on Constructing Sub-Queries and Self Joins](https://ocw.mit.edu/courses/urban-studies-and-planning/11-521-spatial-database-management-and-advanced-geographic-information-systems-spring-2003/lecture-notes/lect4.pdf)
+
 # __References__
 SQL information, example data and database, and data images used from: </br>
 [1] Elmasri, Ramez, and Shamkant B. Navathe. Fundamentals of Database Systems. Pearson, 2017.
