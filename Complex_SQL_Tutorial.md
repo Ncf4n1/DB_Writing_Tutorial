@@ -83,7 +83,7 @@ where Sex = 'F' group by Dno, Sex)
 on DnoMale = DnoFemale)  
 on Dnumber = DnoMale;
 
-To reinforce the concepts presented in this tutorial, we recommend that the reader works through the following three queries: 
+To reinforce the concepts presented in this tutorial, we recommend that the reader works through the following three queries:  
 1) Get average salary of every employee who has a supervisor who is 3 years older than them. </br>
 2) Get the average number of hours worked on projects with at least 2 employees working on them.</br>
 3) Get the name and address of all employees who have a supervisor dependent born after 1970.</br>
@@ -94,6 +94,7 @@ To reinforce the concepts presented in this tutorial, we recommend that the read
 [Improving Your Queries](https://www.datacamp.com/community/tutorials/sql-tutorial-query)
 
 [More on Constructing Sub-Queries and Self Joins](https://ocw.mit.edu/courses/urban-studies-and-planning/11-521-spatial-database-management-and-advanced-geographic-information-systems-spring-2003/lecture-notes/lect4.pdf)
+
 # __References__
 SQL information, example data and database, and data images used from: </br>
 [1] Elmasri, Ramez, and Shamkant B. Navathe. Fundamentals of Database Systems. Pearson, 2017.
