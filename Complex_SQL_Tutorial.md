@@ -13,9 +13,12 @@ SELECT statement is used to fetch all or specific data from a table. The result 
 <b>JOIN: </b> <br>
 A JOIN statement combines the data from one table with another based on a given common column between them.
 Common types of join: INNER JOIN, LEFT JOIN, RIGHT JOIN.
+JOIN statement is as follows: SELECT [column_1] FROM [table1] INNER JOIN [table2] ON table1.[column]=table.[column]. The statement joins table1 with table2 where condition followed after ON is true. It returns the result in a table with columns followed after SELECT. In this example column_1.
 
 <b>GROUP BY [column-1], [column-2]: </b> <br>
-The GROUP BY statement is used to summarize the data recieved into columns that follow it. It returns only one row for duplicate results and is usually used with aggregate functions.
+The GROUP BY statement is used to summarize the data recieved into columns that follow it. It returns only one row for duplicate results and is usually used with aggregate functions. <br>
+SELECT [column_1] FROM [table] WHERE [condition] GROUP BY [column_1].<br>
+The above statement selects data from table as column_1 where condition is met and groups the result by column_1.
 
 <b>AVG(x): </b><br>
 AVG() is an aggregate function. Aggregate functions are used to perform calculations on a given table or column and return the result. In the case of AVG(), it returns the average number.
